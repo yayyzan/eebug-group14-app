@@ -2,11 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 // import html2canvas from 'html2canvas';
 
-
-
 const moment = require('moment');
-
-
 
 function App() {
   const [page, setPage] = useState(0);
@@ -38,7 +34,7 @@ function App() {
   else if(page === 1){
     return (
       <div>
-        <h1>Start</h1>
+        <h1>Start new test</h1>
         <Start setTable={setTable} table={table} setPage={setPage}/> <br/> 
         <button onClick={HomePage}>Back</button>
       </div>
@@ -48,7 +44,7 @@ function App() {
   else if (page === 2){
     return (
       <div>
-        <h1>Previous</h1>
+        <h1>Load previous test</h1>
         <Previous setTable={setTable} table={table}/> <br />
         <button onClick={HomePage}>Back</button>
       </div>
@@ -64,7 +60,6 @@ function App() {
   }
 }
 
-    
 function Previous({table, setTable}){
 
   function handleDeletes(index){
@@ -78,7 +73,7 @@ function Previous({table, setTable}){
         <tr>
           <th>Test-name</th>
           <th>Visit</th>
-          <th>When</th>
+          <th>Date and Time</th>
           <th>Delete</th>
         </tr>
       </thead>
@@ -102,12 +97,16 @@ function Start({setTable, table, setPage}){
   function handleInput({target}){setInput(target.value)}
 
   function handleInputPass(){
-    if(input.trim() === '' || table.some(entry => entry.name === input.trim())){
-      alert('Invalid name or already used');
+    if(input.trim() === ''){
+      alert('INVALID NAME');
+      return;
+    }
+    else if(table.some(entry => entry.name === input.trim())){
+      alert('NAME ALREADY TAKEN, PLEASE TRY AGAIN');
       return;
     }
     setPage(3);
-    const entry = {name: input.trim(), visit: <a href="https://cdnph.upi.com/svc/sv/upi_com/3171685223751/2023/1/8770913281a7b70d5bf30b9c50488a5d/Derrick-White-Celtics-stun-Heat-with-last-second-victory-force-Game-7.jpg">destroyed</a>, made: moment().format('llll')};
+    const entry = {name: input.trim(), visit: <a target="_blank" rel="noreferrer" href="https://as2.ftcdn.net/v2/jpg/04/25/96/83/1000_F_425968328_pK0jApEgVpTCkhS7GyfCId1pcTYBNBf2.jpg">Click me</a>, made: moment().format('llll')};
     setTable(prev => [entry, ...prev]);
     setInput('');
   }
@@ -121,16 +120,20 @@ function Start({setTable, table, setPage}){
 }
 
 function Maze({setPage}){
-  const [cur, setCur] = useState({x:0 , y:0});
+  const [cur, setCur] = useState({x:440 , y:0});
   const [trace, setTrace] = useState([])
 
   useEffect(() => { 
       function handleKey(e){
+
         let { keyCode } = e;
-        let speed = 15;
+        let rate = 10;
+        let wheelRotations = 1;
+        let speed = rate * wheelRotations;
+
         if(keyCode === 37){
-          if(cur.x - speed <= -window.innerWidth/2 ){
-            setCur((prev) => {return {x: -window.innerWidth/2, y: prev.y}})
+          if(cur.x - speed <= 0){
+            setCur((prev) => {return {x: 0, y: prev.y}})
             
           }
           else{
@@ -139,8 +142,8 @@ function Maze({setPage}){
           }
         }
         else if(keyCode === 38){
-          if(cur.y - speed <= -window.innerHeight/2 ){
-            setCur((prev) => {return {x: prev.x, y: -window.innerHeight/2 }})
+          if(cur.y - speed <= 0 ){
+            setCur((prev) => {return {x: prev.x, y: 0}})
             
           }
           else{
@@ -149,8 +152,8 @@ function Maze({setPage}){
           }
         }
         else if(keyCode === 39){
-          if(cur.x + speed >= window.innerWidth/2 -20){
-            setCur((prev) => {return {x: window.innerWidth/2 -20 , y: prev.y}})
+          if(cur.x + speed >= 440){
+            setCur((prev) => {return {x: 440 , y: prev.y}})
             
           }
           else{
@@ -159,8 +162,8 @@ function Maze({setPage}){
           }
         }
         else if(keyCode === 40){
-          if(cur.y + speed >= window.innerHeight/2 -20){
-            setCur((prev) => {return {x: prev.x, y: window.innerHeight/2 -20}})
+          if(cur.y + speed >= 630){
+            setCur((prev) => {return {x: prev.x, y: 630}})
             
           }
           else{
@@ -192,6 +195,9 @@ function Maze({setPage}){
             top: '50%',
             left: '50%',
             transform: 'translate(-50%, -50%)',
+            width: "450px",
+            height: "640px",
+            border: "2px solid black",
           }}
         >
           {trace.map((pos, index) => (
@@ -199,8 +205,8 @@ function Maze({setPage}){
               key={index}
               style={{
                 position: 'absolute',
-                width: '20px',
-                height: '20px',
+                width: '10px',
+                height: '10px',
                 backgroundColor: 'rgba(0, 200, 0)',
                 borderRadius: '50%',
                 transform: `translate(${pos.x}px, ${pos.y}px)`,
@@ -210,8 +216,8 @@ function Maze({setPage}){
           <div
             style={{
               position: 'absolute',
-              width: '20px',
-              height: '20px',
+              width: '10px',
+              height: '10px',
               backgroundColor: 'red',
               borderRadius: '50%',
               transform: `translate(${cur.x}px, ${cur.y}px)`,
@@ -219,10 +225,13 @@ function Maze({setPage}){
           ></div>
         </div>
       </div>
-      <button onClick={goBack}>fuck the heat</button>
+      <button onClick={goBack}>Back</button>
     </>
   );
 }
+
+
+
 
 export default App;
 

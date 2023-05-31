@@ -39,9 +39,10 @@ body {
   }
 
   table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 80%; 
+    margin: 0 auto; 
     margin-top: 20px;
+    border-collapse: collapse;
     table-layout: fixed;
     border-radius: 5px;
     overflow: hidden;
