@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1734"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="bottomshelfnew.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1736"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4182101"
+     inkscape:cx="369.12724"
+     inkscape:cy="233.04022"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5486" />
+  <defs
+     id="defs1731" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5493"
+       transform="translate(-19.804276,-14.882634)">
+      <rect
+         style="fill:none;stroke:#ff0000;stroke-width:0.264583;stroke-opacity:1"
+         id="rect119"
+         width="150"
+         height="100"
+         x="19.936567"
+         y="15.014926" />
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.129184;stroke-opacity:1"
+         id="path5398"
+         cx="25.554276"
+         cy="20.632633"
+         r="2.6854079" />
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.129184;stroke-opacity:1"
+         id="path5398-3"
+         cx="164.05426"
+         cy="20.632633"
+         r="2.6854079" />
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.129184;stroke-opacity:1"
+         id="path5398-0"
+         cx="25.554276"
+         cy="109.13263"
+         r="2.6854079" />
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.129184;stroke-opacity:1"
+         id="path5398-4"
+         cx="164.05426"
+         cy="109.13263"
+         r="2.6854079" />
+    </g>
+    <g
+       id="g5486"
+       transform="translate(-8.7254001,87.892445)" />
+    <g
+       id="g6274"
+       transform="translate(5.14056,31.64056)">
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.28112;stroke-opacity:1"
+         id="path5547"
+         cx="2.125"
+         cy="8.125"
+         r="2.125" />
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.28112;stroke-opacity:1"
+         id="path5549"
+         cx="32.125"
+         cy="8.125"
+         r="2.125" />
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.28112;stroke-opacity:1"
+         id="path5551"
+         cx="2.125"
+         cy="28.125"
+         r="2.125" />
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.28112;stroke-opacity:1"
+         id="path5553"
+         cx="32.125"
+         cy="28.125"
+         r="2.125" />
+    </g>
+    <g
+       id="g6274-7"
+       transform="translate(111.14056,31.64056)">
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.28112;stroke-opacity:1"
+         id="path5547-1"
+         cx="2.125"
+         cy="8.125"
+         r="2.125" />
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.28112;stroke-opacity:1"
+         id="path5549-0"
+         cx="32.125"
+         cy="8.125"
+         r="2.125" />
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.28112;stroke-opacity:1"
+         id="path5551-1"
+         cx="2.125"
+         cy="28.125"
+         r="2.125" />
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.28112;stroke-opacity:1"
+         id="path5553-4"
+         cx="32.125"
+         cy="28.125"
+         r="2.125" />
+    </g>
+  </g>
+</svg>
