@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg47440"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="topshelf.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview47442"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.76969697"
+     inkscape:cx="396.25984"
+     inkscape:cy="411.20079"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs47437" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect119-8-4"
+       width="150"
+       height="100"
+       x="23.65625"
+       y="19.781254" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.129184;stroke-opacity:1"
+       id="path5398-1-4"
+       cx="29.273956"
+       cy="25.398991"
+       r="2.6854079" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.129184;stroke-opacity:1"
+       id="path5398-3-5-6"
+       cx="167.77394"
+       cy="25.398991"
+       r="2.6854079" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.129184;stroke-opacity:1"
+       id="path5398-0-5-9"
+       cx="29.273956"
+       cy="113.89899"
+       r="2.6854079" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.129184;stroke-opacity:1"
+       id="path5398-4-9-2"
+       cx="167.77394"
+       cy="113.89899"
+       r="2.6854079" />
+    <g
+       id="g29394"
+       transform="matrix(0.26458333,0,0,0.26458333,3.093474,-191.76986)"
+       style="stroke:#ff0000;stroke-opacity:1">
+      <g
+         inkscape:label="0"
+         id="g28845"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="SECTION_CUTTING_LINE"
+         id="g28847"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="DETAIL_VIEW_BORDER"
+         id="g28849"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="DETAIL_VIEW_PARENT_BORDER"
+         id="g28851"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="TEXT"
+         id="g28853"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="SKETCHED_GEOMETRY"
+         id="g28855"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="VIRTUAL_SHARPS"
+         id="g28857"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="CENTERLINES"
+         id="g28859"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="CENTERMARKS"
+         id="g28861"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="TABLES"
+         id="g28863"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="IMAGES"
+         id="g28865"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="ANNOTATION_LINES"
+         id="g28867"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="ANNOTATION_TEXT"
+         id="g28869"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="SIDE_THREAD_SYMBOLS"
+         id="g28871"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="SIDE_THREAD_SYMBOLS_HIDDEN"
+         id="g28873"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="SURFACE_THREAD_SYMBOLS"
+         id="g28875"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="SURFACE_THREAD_SYMBOLS_ON_"
+         id="g28877"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="SURFACE_THREAD_SYMBOLS_HID"
+         id="g28879"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="BLIND_THREAD_SYMBOLS"
+         id="g28881"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="BLIND_THREAD_SYMBOLS_HIDDE"
+         id="g28883"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="EXPLODE_LINES"
+         id="g28885"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="HIDDEN_EXPLODE_LINES"
+         id="g28887"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="BREAK_LINES"
+         id="g28889"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="SHEETMETAL_BEND_LINES_UP"
+         id="g28891"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="SHEETMETAL_BEND_LINES_DOWN"
+         id="g28893"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="SHEETMETAL_BEND_TANGENT_LI"
+         id="g28895"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="SHEETMETAL_CUT_LINES"
+         id="g28897"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="REGION_ASSOC_POINTS"
+         id="g28899"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="PATTERN_CENTERLINES"
+         id="g28901"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="HIDDEN"
+         id="g28903"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="VISIBLE"
+         id="g29183"
+         style="stroke:#ff0000;stroke-opacity:1">
+        <path
+           d="m 525.73228,910.86614 a 7.937008,7.937008 0 0 0 -15.87401,0 7.937008,7.937008 0 0 0 15.87401,0 z"
+           style="fill:none;stroke:#ff0000;stroke-opacity:1"
+           id="path28921" />
+        <path
+           d="m 525.73228,956.22047 a 7.937008,7.937008 0 0 0 -15.87401,0 7.937008,7.937008 0 0 0 15.87401,0 z"
+           style="fill:none;stroke:#ff0000;stroke-opacity:1"
+           id="path28967" />
+        <path
+           d="m 208.25197,910.86614 a 7.93701,7.93701 0 0 0 -15.87402,0 7.93701,7.93701 0 0 0 15.87402,0 z"
+           style="fill:none;stroke:#ff0000;stroke-opacity:1"
+           id="path29067" />
+        <path
+           d="m 208.25197,956.22047 a 7.93701,7.93701 0 0 0 -15.87402,0 7.93701,7.93701 0 0 0 15.87402,0 z"
+           style="fill:none;stroke:#ff0000;stroke-opacity:1"
+           id="path29117" />
+      </g>
+      <g
+         inkscape:label="MODELSKETCH_VISIBLE"
+         id="g29185"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="MODELSKETCH_POINT"
+         id="g29187"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="MODELSKETCH_CONSTRUCTION"
+         id="g29189"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="HIDDEN_BASE_VIEW"
+         id="g29191"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="TANGENT_LINES"
+         id="g29193"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="TANGENT_HIDDEN"
+         id="g29195"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="INVISIBLE_LINES"
+         id="g29197"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="VIEW_HATCHES"
+         id="g29199"
+         style="stroke:#ff0000;stroke-opacity:1" />
+      <g
+         inkscape:label="SECTION_JOG_LINES"
+         id="g29201"
+         style="stroke:#ff0000;stroke-opacity:1" />
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.232952;stroke-opacity:1"
+       id="rect46603"
+       width="99.767044"
+       height="9.7670479"
+       x="48.640438"
+       y="109.76544" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:0.2566;stroke-opacity:1"
+       id="rect46605"
+       width="29.743401"
+       height="4.7433996"
+       x="83.652252"
+       y="84.777252" />
+  </g>
+</svg>
