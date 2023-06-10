@@ -154,8 +154,8 @@ def core0_thread():
 
 
 chargestate="not charged"
-wantedbeacon=False
-eee_thread=_thread.start_new_thread(core1_thread,())
-core0_thread()
+wantedbeacon=False #default state for beacons off
+eee_thread=_thread.start_new_thread(core1_thread,())#spawn eee thread
+core0_thread() #call server thread
 
 
